@@ -15,6 +15,21 @@ namespace MyFormsApp
 		public Page1()
 		{
 			InitializeComponent ();
-		}
+
+      NameLabel.Text = "Loading from ctor...";
+    }
+
+    internal void DoSomething()
+    {
+      var obj = (Person)BindingContext;
+      obj.Name = "Matt Murdoch";
+    }
+
+    //private void ButtonClicked(object sender, EventArgs e)
+    //{
+    //  NameLabel.Text = "Button was clicked";
+    //  var obj = (Person)BindingContext;
+    //  obj.Name = "Luke Cage";
+    //}
   }
 }

@@ -16,6 +16,8 @@ namespace MyFormsApp
       var obj = new Person { Name = "Jessica Jones" };
       page.BindingContext = obj;
 
+      //page.DoSomething();
+
       // Publish a root element to be displayed
       UI.Publish("/", page.GetOouiElement());
     }

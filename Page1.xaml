@@ -4,12 +4,10 @@
              x:Class="MyFormsApp.Page1">
   <ContentPage.Content>
     <StackLayout>
-      <Label Text="A person's name"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-      <Label Text="{Binding Path=Name, Mode=TwoWay}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+      <Label x:Name="NameLabel"  Text="..." />
+      <Label Text="{Binding Name}" />
+      <!--<Label Text="Spacer" />-->
+      <!--<Button Clicked="ButtonClicked" Text="Click me"/>-->
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>
