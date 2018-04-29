@@ -23,8 +23,10 @@ namespace MyFormsApp
     }
   }
 
-  // CSLA Person class - but doesn't work just yet :(
-  //
+
+  ///// <summary>
+  ///// CSLA Person class - but doesn't work just yet :(
+  ///// </summary>
   //[Serializable]
   //public class Person : BusinessBase<Person>
   //{

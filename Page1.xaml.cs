@@ -19,6 +19,12 @@ namespace MyFormsApp
       NameLabel.Text = "Loading from ctor...";
     }
 
+    protected override void OnAppearing()
+    {
+      var obj = (Person)BindingContext;
+      obj.Name = "Luke Cage";
+    }
+
     internal void DoSomething()
     {
       var obj = (Person)BindingContext;
