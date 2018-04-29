@@ -7,7 +7,7 @@
       <Label x:Name="NameLabel"  Text="..." />
       <Label Text="{Binding Name}" />
       <!--<Label Text="Spacer" />-->
-      <!--<Button Clicked="ButtonClicked" Text="Click me"/>-->
+      <Button Clicked="ButtonClicked" Text="Click me"/>
     </StackLayout>
   </ContentPage.Content>
 </ContentPage>
